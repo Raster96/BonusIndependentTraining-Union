@@ -1,0 +1,51 @@
+; ============================================
+; BonusIndependentTraining - Configuration
+; Example configuration for Gothic.ini
+; ============================================
+;
+; Copy these settings to your Gothic.ini file
+; Location: [Gothic2]\System\Gothic.ini
+;
+; Add a new section [BONUS_INDEPENDENT_TRAINING] or modify existing one
+
+[BONUS_INDEPENDENT_TRAINING]
+
+; ============================================
+; show_stats_when_training
+; ============================================
+; Shows a message with the trained and effective stat when you train
+;
+; 0 = disabled (no training messages)
+; 1 = enabled (shows training progress)
+;
+; Default: 0
+show_stats_when_training=0
+
+; ============================================
+; trainer_max_against_effective
+; ============================================
+; Whether the trainer max attr/skill check is done against the
+; trained or the effective value of that attr/skill.
+;
+; Example: bow level is 70 = 54 trained + 16 from bonuses
+; and there is a trainer with max training at 70.
+; If this is 1 (true) then the trainer won't be able to train you anymore,
+; otherwise the trainer will be able to train you for 16 more points.
+;
+; 0 = check against trained values (recommended)
+; 1 = check against effective values
+;
+; Default: 0
+trainer_max_against_effective=0
+
+; ============================================
+; show_real_stats_in_char_menu
+; ============================================
+; Shows the trained stat in the char menu on the left of the effective stat
+; Example: Strength 10  25 means that the hero has 10 trained strength and 25 effective
+;
+; 0 = disabled (show only effective values)
+; 1 = enabled (show both trained and effective values)
+;
+; Default: 1
+show_real_stats_in_char_menu=1
