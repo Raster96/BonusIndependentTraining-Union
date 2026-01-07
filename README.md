@@ -38,7 +38,7 @@ When enabled in configuration, the character menu shows both values:
 ## Configuration
 
 ```ini
-[NINJA_BONUS-INDEPENDENT-TRAINING]
+[BONUS_INDEPENDENT_TRAINING]
 ; Shows a message with trained and effective stats when you train
 show_stats_when_training=false
 
@@ -50,6 +50,16 @@ trainer_max_against_effective=true
 ; Shows trained values in character menu alongside effective values
 ; Format: "Attribute [Trained] [Effective]"
 show_real_stats_in_char_menu=true
+
+; Default minimum value displayed for point-based attributes (Strength, Dexterity, Mana)
+; If the trained value is lower than this, this value will be shown instead
+; Useful for mods that change default starting values from 10
+default_min_attribute=10
+
+; Default minimum value displayed for percentage-based skills (1H, 2H, Bow, Crossbow)
+; If the trained value is lower than this, this value will be shown instead
+; Useful for mods like Odyssey where default percentage skills start at 5 instead of 10
+default_min_percent=10
 ```
 
 ## Building from Source

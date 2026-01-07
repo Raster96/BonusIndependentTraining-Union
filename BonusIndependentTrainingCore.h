@@ -7,6 +7,8 @@ namespace GOTHIC_ENGINE {
         static bool showStatsWhenTraining;
         static bool trainerMaxOnEffective;
         static bool showRealStatsInCharMenu;
+        static int defaultMinAttribute;
+        static int defaultMinPercent;
         
         static void Init();
         static void Update();

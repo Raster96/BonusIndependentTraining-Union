@@ -49,3 +49,25 @@ trainer_max_against_effective=0
 ;
 ; Default: 1
 show_real_stats_in_char_menu=1
+
+; ============================================
+; default_min_attribute
+; ============================================
+; Default minimum value displayed for point-based attributes
+; (Strength, Dexterity, Mana)
+; If the trained value is lower than this, this value will be shown instead.
+; Useful for mods that change default starting values from 10.
+;
+; Default: 10
+default_min_attribute=10
+
+; ============================================
+; default_min_percent
+; ============================================
+; Default minimum value displayed for percentage-based skills
+; (1H, 2H, Bow, Crossbow)
+; If the trained value is lower than this, this value will be shown instead.
+; Useful for mods like Odyssey where default percentage skills start at 5 instead of 10.
+;
+; Default: 10
+default_min_percent=10
