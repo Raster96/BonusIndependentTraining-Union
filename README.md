@@ -1,6 +1,7 @@
 # BonusIndependentTraining-Union [Gothic 2 NotR]
 
 **⚠️ IMPORTANT: ⚠️**
+
 **This plugin was created primarily for Gothic II NotR and will not be compatible with most mods.**
 
 ![BonusIndependentTraining Screenshot](ss1.png)
