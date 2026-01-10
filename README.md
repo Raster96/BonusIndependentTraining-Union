@@ -1,8 +1,11 @@
-# BonusIndependentTraining-Union
+# BonusIndependentTraining-Union [Gothic 2 NotR]
+
+**⚠️ IMPORTANT: ⚠️**
+**This plugin was created primarily for Gothic II NotR and will not be compatible with most mods.**
 
 ![BonusIndependentTraining Screenshot](ss1.png)
 
-A Union port of the Bonus Independent Training plugin for Gothic II, originally created by elsky42 - visit [elsky42's ninja-bonus_independent_training repository](https://github.com/elsky42/ninja-bonus_independent_training) for the original Ninja version.
+A Union port of the Bonus Independent Training plugin for Gothic II NotR, originally created by elsky42 - visit [elsky42's ninja-bonus_independent_training repository](https://github.com/elsky42/ninja-bonus_independent_training) for the original Ninja version.
 BonusIndependentTraining allows for more flexible character development by changing how training costs are calculated. Only "trained points" for a specific skill/attribute count toward the LP cost for further training, while bonuses from equipment or permanent bonuses (like stat increase potions) don't count.
 The main goal of the project is to eliminate the need for Ninja extension.
 
@@ -12,8 +15,7 @@ The main goal of the project is to eliminate the need for Ninja extension.
 - **Equipment Bonus Freedom**: Use equipment bonuses without affecting training costs
 - **Permanent Bonus Flexibility**: Permanent stat bonuses (potions, etc.) don't increase training costs
 - **Trainer Compatibility Options**: Configure whether trainer limits check trained or effective values
-- **Gothic II Compatibility**: Works with both Gothic II NotR
-- **Union Integration**: Seamless integration with Union framework
+- **Gothic II Compatibility**: Works with Gothic II NotR
 
 ## Installation
 
@@ -58,7 +60,7 @@ default_min_attribute=10
 
 ; Default minimum value displayed for percentage-based skills (1H, 2H, Bow, Crossbow)
 ; If the trained value is lower than this, this value will be shown instead
-; Useful for mods like Odyssey where default percentage skills start at 5 instead of 10
+; Useful for mods where default percentage skills start at 5 instead of 10
 default_min_percent=10
 ```
 
@@ -95,6 +97,7 @@ This project maintains compatibility with the original Bonus Independent Trainin
 This plugin creates hooks around the functions `B_TeachFightTalentPercent`, `B_TeachAttributePoints`, `B_RaiseFightTalent`, `B_RaiseAttribute` and `B_BlessAttribute` to prevent them from changing the real attributes or fight talents. The plugin should be highly compatible with other mods unless they require the real attributes or fight talents to be changed by these specific functions.
 
 - **Gothic II NotR**: ✅ Supported  
+- **Other mods**: ❌ Not compatible with most mods
 - **Other Plugins**: Compatible with most Union plugins
 
 ## Troubleshooting
