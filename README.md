@@ -1,14 +1,14 @@
 # BonusIndependentTraining-Union [Gothic 2 NotR]
 
+A Union port of the Bonus Independent Training plugin for Gothic II NotR, originally created by elsky42 - visit [elsky42's ninja-bonus_independent_training repository](https://github.com/elsky42/ninja-bonus_independent_training) for the original Ninja version.
+BonusIndependentTraining allows for more flexible character development by changing how training costs are calculated. Only "trained points" for a specific skill/attribute count toward the LP cost for further training, while bonuses from equipment or permanent bonuses (like stat increase potions) don't count.
+The main goal of the project is to eliminate the need for Ninja extension.
+
 **⚠️ IMPORTANT: ⚠️**
 
 **This plugin was created primarily for Gothic II NotR and will not be compatible with most mods.**
 
 ![BonusIndependentTraining Screenshot](ss1.png)
-
-A Union port of the Bonus Independent Training plugin for Gothic II NotR, originally created by elsky42 - visit [elsky42's ninja-bonus_independent_training repository](https://github.com/elsky42/ninja-bonus_independent_training) for the original Ninja version.
-BonusIndependentTraining allows for more flexible character development by changing how training costs are calculated. Only "trained points" for a specific skill/attribute count toward the LP cost for further training, while bonuses from equipment or permanent bonuses (like stat increase potions) don't count.
-The main goal of the project is to eliminate the need for Ninja extension.
 
 ## Features
 
